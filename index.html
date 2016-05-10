@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="fixtop">
+		<header class="text-center">
+			<h1>TODO APP</h1>
+		</header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="todoapp col-md-offset-4 col-md-4 ">
+					<textarea name="work" id="inputWork" cols="30" rows="10"></textarea>
+					<button class="btn btn-primary" onclick="AdicionarTarea()"><span class="glyphicon glyphicon-plus"></span>Añadir tarea</button>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="tareas container-fluid">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4 ">
+				<div id="tareaStock">
+					<!-- <div id="item" >
+						<input type="checkbox" id="i-tarea">
+						<div id="descrip">Hola mundo</div>
+						<span id="icon" class="icon-trash" onclick="remove()"></span>
+					</div> -->
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- javascript -->
+	<script src="js/main.js"></script>
+</body>
+</html>
