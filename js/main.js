@@ -48,8 +48,8 @@ function HacerTarea(tareatext){
 }
 
 function clean() {
-	var inputTarea = document.getElementById("inputBox");
-	inputBox.value = "";
-	inputBox.focus();
+	var inputTarea = document.getElementById("inputWork");
+	inputTarea.value = "";
+	inputTarea.focus();
 }
 
