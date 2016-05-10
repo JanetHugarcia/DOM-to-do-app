@@ -23,11 +23,16 @@ function HacerTarea(tareatext){
 	var elemento1 = document.createElement("input");
 	elemento1.setAttribute("type","checkbox");
 	elemento1.setAttribute("id","i-tarea");
-	elemento1.onchange =function(){
-		elemento2.innerHTML=tareatext.strike();
+	elemento1.onchange=function(){
+		if(elemento1.checked==1){
+			elemento2.innerHTML=tareatext.strike();
+		}else{
+			elemento2.innerHTML=tareatext;
+		}
+		
 	}
 	
-	var elemento2 =  document.createElement("div");
+	var elemento2 =  document.createElement("p");
 	elemento2.id="descrip";
 	elemento2.innerHTML=tareatext;
 	var elemento3 = document.createElement("span");
