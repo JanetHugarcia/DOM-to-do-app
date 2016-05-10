@@ -3,6 +3,7 @@
 	padding:0;
 	box-sizing: content-box;
 }
+
 .fixtop{
 	padding-bottom: 15px;
 	border-bottom: 1px solid black;
@@ -16,12 +17,12 @@ h1{
 	padding:10px 0px;
 	margin-top: 0;
 }
+
 textarea{
-	width:100%;
-	max-width: 800px;
+	width:95%;
 	height: 100px;
-	display: block;
 	margin-bottom: 15px;
+	display: block;
 	padding:10px;
 }
 button{
@@ -57,4 +58,10 @@ button span{
 	position:absolute;
 	right:15px;
 
+}
+
+@media screen and (max-width: 768px){
+	textarea{
+		width: 92%;
+	}
 }
