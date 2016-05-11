@@ -3,7 +3,10 @@
 	padding:0;
 	box-sizing: content-box;
 }
-
+#tareaStock{
+	 height:400px;
+ 	 overflow-y: scroll;
+}
 .fixtop{
 	padding-bottom: 15px;
 	border-bottom: 1px solid black;
@@ -64,6 +67,18 @@ button span{
 	position:absolute;
 	right:15px;
 
+}
+::-webkit-scrollbar {
+    width: .6em;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
 @media screen and (max-width: 768px){
